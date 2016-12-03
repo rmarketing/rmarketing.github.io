@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  color: #491d31;
 }
 p {
   font-size: 20px;
@@ -18,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #4d9cc3;
   outline: none;
 }
 h1,
@@ -51,26 +52,26 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #e2e4ed;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
+  background-color: #4d9cc3;
+  color: #e2e4ed;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #491d31;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color: #e2e4ed;
+  color: #491d31;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #4d9cc3;
+  color: #e2e4ed;
 }
 header .container {
   padding-top: 100px;
@@ -104,7 +105,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #491d31;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -114,49 +115,49 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #e2e4ed;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #e2e4ed;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #e2e4ed;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #4d9cc3;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #e2e4ed;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: #e2e4ed;
+  background: #4d9cc3;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
+  color: #e2e4ed;
+  background: #4d9cc3;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: #e2e4ed;
   text-transform: uppercase;
   font-size: 10px;
-  border-color: white;
+  border-color: #e2e4ed;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
-  color: white;
-  border-color: #18BC9C;
+  background-color: #4d9cc3;
+  color: #e2e4ed;
+  border-color: #4d9cc3;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -186,8 +187,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: #4d9cc3;
+  color: #e2e4ed;
 }
 @media (max-width: 767px) {
   section {
@@ -197,18 +198,21 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#software {
+  background-color: #e2e4ed;
+}
+#software .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#software .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+#software .portfolio-item .portfolio-link .caption {
+  background: rgba(77, 156, 195, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -217,10 +221,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#software .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#software .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -228,16 +232,16 @@ section.success {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #e2e4ed;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#software .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#software .portfolio-item .portfolio-link .caption .caption-content h3,
+#software .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#software * {
   z-index: 2;
 }
 @media (min-width: 767px) {
@@ -289,32 +293,35 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #4d9cc3;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+#service {
+  background-color: #4d9cc3;
+}
 footer {
-  color: white;
+  color: #e2e4ed;
 }
 footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #491d31;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #371625;
 }
 .btn-outline {
-  color: white;
+  color: #e2e4ed;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #e2e4ed;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -323,14 +330,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
-  background: white;
-  border: solid 2px white;
+  color: #4d9cc3;
+  background: #e2e4ed;
+  border: solid 2px #e2e4ed;
 }
 .btn-primary {
-  color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  color: #e2e4ed;
+  background-color: #491d31;
+  border-color: #491d31;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -338,9 +345,9 @@ footer .footer-below {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
+  color: #e2e4ed;
+  background-color: #240e19;
+  border-color: #1d0c14;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -362,17 +369,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #491d31;
+  border-color: #491d31;
 }
 .btn-primary .badge {
-  color: #2C3E50;
-  background-color: white;
+  color: #491d31;
+  background-color: #e2e4ed;
 }
 .btn-success {
-  color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  color: #e2e4ed;
+  background-color: #4d9cc3;
+  border-color: #4d9cc3;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -380,9 +387,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  color: #e2e4ed;
+  background-color: #3881a5;
+  border-color: #357b9e;
 }
 .btn-success:active,
 .btn-success.active,
@@ -404,18 +411,18 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #4d9cc3;
+  border-color: #4d9cc3;
 }
 .btn-success .badge {
-  color: #18BC9C;
-  background-color: white;
+  color: #4d9cc3;
+  background-color: #e2e4ed;
 }
 .btn-social {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
+  border: 2px solid #e2e4ed;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
@@ -480,7 +487,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #491d31;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -491,7 +498,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #491d31;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
