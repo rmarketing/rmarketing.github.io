@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Start Bootstrap - R Marketing v3.3.7+1 (https://rmarketing.github.io)
+ * Copyright 2013-2016 Matthias Bannert and Johannes Burkhardt
+ * Licensed under MIT (https://github.com/rmarketing/rmarketing.github.io/blob/gh-pages/LICENSE)
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -42,7 +42,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f121";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;

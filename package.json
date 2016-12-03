@@ -1,12 +1,12 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "R Marketing",
+  "title": "R Marketing",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "https://rmarketing.github.io",
+  "author": "Matthias Bannert and Johannes Burkhardt",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/rmarketing/rmarketing.github.io/blob/gh-pages/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/rmarketing/rmarketing.github.io.git"
   }
 }
